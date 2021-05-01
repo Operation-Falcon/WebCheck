@@ -8,4 +8,4 @@ Project 2
 
 Webcheck sees whether there is an http or https service running on given subdomain.
 
-You can pass it as a single subdomain or domain or can pass the file containing domains to look for http or https service
+You can pass a single subdomain or domain or can pass the file containing domains to look for http or https service
