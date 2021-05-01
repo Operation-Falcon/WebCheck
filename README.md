@@ -12,4 +12,9 @@ You can pass a single subdomain or domain or can pass the file containing domain
 
 Installation :
 
-            git clone 
+            git clone https://github.com/operationfalcon/WebCheck.git
+            
+            cd WebCheck
+            
+            pip3 install -r requirements.txt
+
