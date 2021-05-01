@@ -23,7 +23,7 @@ def web_check_file(filename):
                     if r.status_code==200:
                         print("http://"+file[i])
                     elif r.status_code !=200:
-                        r = requests.get(url="http://"+file[i], timeout=20)
+                        r = requests.get(url="https://"+file[i], timeout=20)
                         if r.status_code == 200:
                             print("https://"+file[i])
                 except Exception as e:
