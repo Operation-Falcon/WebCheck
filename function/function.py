@@ -30,4 +30,4 @@ def web_check_file(filename):
                     print("Error caused")
 
     except Exception as e:
-        print("You have exceeded the maximum try. Wait for sometime")
+        print("Cannot open the file .")
