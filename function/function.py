@@ -30,4 +30,4 @@ def web_check_file(filename):
                     print("Error caused")
 
     except Exception as e:
-        print("Cannot open the file .")
+        print("Max retries exceeded with url")
