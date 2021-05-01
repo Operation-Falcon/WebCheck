@@ -19,3 +19,5 @@ Installation :
             pip3 install -r requirements.txt
 
 Usage :
+
+![Webusage](https://user-images.githubusercontent.com/83413793/116782078-bef4ba00-aaa4-11eb-8d00-ac4ac2e95e6a.png)
