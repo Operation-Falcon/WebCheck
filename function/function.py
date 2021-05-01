@@ -30,4 +30,4 @@ def web_check_file(filename):
                     print("Error caused")
 
     except Exception as e:
-        print("Max retries exceeded with url")
+        print("Max retries exceeded with url. Caused by NewConnectionError")
