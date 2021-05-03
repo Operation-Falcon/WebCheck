@@ -32,3 +32,10 @@ Output :
             python3 webcheck.py -d <domain/subdomain name> | tee result.txt  ( Piping the output to result.txt or as you want it to be)
             
             python3 webcheck.py -f <file containing subdomains> | tee result.txt ( Piping the output to result.txt or as you want it )
+
+
+Troubleshooting :
+
+            If you are getting http connection error then do for loop to bypass the http connection error from request library
+            
+            or you can use custom proxy
