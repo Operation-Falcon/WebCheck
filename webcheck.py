@@ -6,7 +6,6 @@ banner=banner_design()
 
 parser=argparse.ArgumentParser(description=banner, formatter_class=argparse.RawTextHelpFormatter)
 parser.add_argument('-d', '--domain', help="passing the subdomain name to see any web service is rnning", type=str)
-parser.add_argument('-f', '--file', help='file containing subdomains')
 args=parser.parse_args()
 
 
