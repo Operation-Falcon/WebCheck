@@ -24,15 +24,12 @@ Usage :
 
             python3 webcheck.py -d <domain/subdomain name>
             
-            python3 webcheck.py -f <file containing subdomains> 
             
             
 Output :
 
             python3 webcheck.py -d <domain/subdomain name> | tee result.txt  ( Piping the output to result.txt or as you want it to be)
             
-            python3 webcheck.py -f <file containing subdomains> | tee result.txt ( Piping the output to result.txt or as you want it )
-
 
 Troubleshooting :
 
