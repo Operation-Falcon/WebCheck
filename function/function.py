@@ -18,7 +18,7 @@ def web_check_file(filename):
         with open(filename, 'r') as file:
             file=file.readlines()
             for i in range(0, len(file)):
-                r=requests.get(url="http://"+file[i], allow_redirects=False, timeout=20)
+                r=requests.get(url=str("http://"+file[i]), allow_redirects=False, timeout=20)
                 try:
                     if r.status_code==200:
                         print("http://"+file[i])
